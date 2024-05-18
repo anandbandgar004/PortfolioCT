@@ -1,0 +1,220 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(abstract-blue-texture-4k-cl.jpg);
+    background-size: cover;
+}
+.Header_Tab
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 35px;
+}
+.Sub_section
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+}
+.sects
+{
+    display:flex;
+    margin-left: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sects:hover
+{
+    color: rgb(60, 197, 255);
+}
+a:link
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visited
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.Logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Name
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.intro
+{
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+}
+.hello
+{
+    padding: 30px;
+    padding-bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.Anand
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.my_image
+{
+    width: 580px;
+    height: 580px;
+    border-radius: 290px;
+}
+.role
+{
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+h3
+{
+    padding-left: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(43, 159, 248);
+}
+.about_text
+{
+    margin-left: 90px;
+    margin-right: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.Projects
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 60px;
+    padding-top: 25px;
+}
+.Project
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    background-color: rgba(0, 195, 255, 0.674);
+}
+#Project1:hover
+{
+    background-image: url(image.png);
+    background-size: cover;
+    color:rgba(197, 0, 207, 0);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+#Project2:hover
+{
+    background-image: url(Port.jpg);
+    background-size: contain;
+    color:rgba(197, 0, 207, 0);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+#Project3:hover
+{
+    background-size: contain;
+    color:rgba(197, 0, 207, 0);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+#Project4:hover
+{
+    background-size: contain;
+    color:rgba(197, 0, 207, 0);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.Open
+{
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+}
+.Skill
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Skill_logo
+{
+    width: 100px;
+}
+.Socials
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.icons
+{
+    width: 75px;
+}
+.Prjt_button
+{
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+}
+.bottom
+    {
+        background-color: black;
+        color: aliceblue;
+        padding: 20px;
+        margin-top: 0px;
+        border-radius: 5px;
+        justify-content:center;
+        display: flex;
+    }
